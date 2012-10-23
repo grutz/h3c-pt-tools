@@ -7,7 +7,7 @@ Overview
 --------
 
 HP/H3C and Huawei networking equipment suffers from a serious weakness in
-regards to they're handling of Systems Network Management Protocol (SNMP)
+regards to their handling of Systems Network Management Protocol (SNMP)
 requests for protected h3c-user.mib and hh3c-user.mib objects.
 
 
