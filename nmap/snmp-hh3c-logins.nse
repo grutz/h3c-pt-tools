@@ -99,7 +99,7 @@ function process_answer( tbl )
 				level = get_value_from_table( tbl, oldobjid )
 			end
 
-			output.users[#output.users + 1] = string.format("%s - %s - level: %s", v.value, password, level)
+			output.users[#output.users + 1] = {username=v.value, password=password, level=level}
 		end
 	
 	end
