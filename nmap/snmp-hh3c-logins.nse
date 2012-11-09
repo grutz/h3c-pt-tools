@@ -29,15 +29,21 @@ http://grutztopia.jingojango.net/2012/10/hph3c-and-huawei-snmp-weak-access-to.ht
 -- |   users:
 -- |     admin - admin - level: 3
 -- |_    h3c - h3capadmin - level 0
+--
+-- @xmloutput
+-- <elem key="password">admin<elem>
+-- <elem key="username">admin</elem>
+-- <elem key="level">3</elem>
 
 author = "Kurt Grutzmacher"
 license = "Same as Nmap--See http://nmap.org/book/man-legal.html"
 categories = {"default", "discovery", "safe"}
 dependencies = {"snmp-brute"}
 
--- Version 0.2
+-- Version 0.3
 -- Created 10/01/2012 - v0.1 - created via modifying other walk scripts
 -- Updated 10/25/2012 - v0.2 - bugfixes and better output per NSE standards
+-- Updated 11/08/2012 - v0.3 - added xmloutput
 
 
 portrule = shortport.portnumber(161, "udp", {"open", "open|filtered"})
