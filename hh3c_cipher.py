@@ -64,6 +64,13 @@ Timeline
    October 20, 2012   - Disclos..err..delay per HP request
    November 13, 2012  - eMaze researchers disclose the cipher
    November 14, 2012  - publish.....!
+
+References:
+
+   US-CERT VU#948096
+   CVE-2012-4960
+   http://blog.emaze.net/2012/11/weak-password-encryption-on-huawei.html
+
 """
 
 import sys, os
